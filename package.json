@@ -1,0 +1,25 @@
+{
+  "name": "@lionellgh/holidates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/becodeorg/hamilton-6-holidates-lionellgh.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/becodeorg/hamilton-6-holidates-lionellgh/issues"
+  },
+  "homepage": "https://github.com/becodeorg/hamilton-6-holidates-lionellgh#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^5.0.1",
+    "country-list": "^2.2.0",
+    "user": "^0.0.0"
+  }
+}

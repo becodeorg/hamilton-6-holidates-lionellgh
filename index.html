@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" name="year" id="year" placeholder="year">
+    <input type="text" name="code" id="code" placeholder="code">
+    <button id="run">run</button>
+
+    <template>
+        <ul>
+            <li>date: </li>
+            <li>localName: </li>
+            <li>name: </li>
+            <li>countryCode: </li>
+            <li>fixed: </li>
+            <li>global: </li>
+            <li>counties: </li>
+            <li>launchYear: </li>
+            <li>types: </li>
+        </ul>
+    </template>
+
+    <ul id="target">
+
+    </ul>
+    <script src="node_modules/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
